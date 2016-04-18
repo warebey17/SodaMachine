@@ -1,0 +1,6 @@
+c:\users\warebey17\documents\visual studio 2015\Projects\sodaMachine\sodaMachine\bin\Debug\sodaMachine.exe.config
+C:\Users\warebey17\Documents\Visual Studio 2015\Projects\sodaMachine\sodaMachine\obj\Debug\sodaMachine.csprojResolveAssemblyReference.cache
+C:\Users\warebey17\Documents\Visual Studio 2015\Projects\sodaMachine\sodaMachine\bin\Debug\sodaMachine.exe
+C:\Users\warebey17\Documents\Visual Studio 2015\Projects\sodaMachine\sodaMachine\bin\Debug\sodaMachine.pdb
+C:\Users\warebey17\Documents\Visual Studio 2015\Projects\sodaMachine\sodaMachine\obj\Debug\sodaMachine.exe
+C:\Users\warebey17\Documents\Visual Studio 2015\Projects\sodaMachine\sodaMachine\obj\Debug\sodaMachine.pdb
