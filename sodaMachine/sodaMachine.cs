@@ -42,8 +42,6 @@ namespace sodaMachine
         Decimal orangeCan = .35m;
         Decimal meatCan = .06m;
 
-        //List<>
-
         public Decimal depositedAmount;
 
         private Decimal internalRegister = 22.50m;
@@ -52,19 +50,9 @@ namespace sodaMachine
         {
             depositedAmount = 0;
 
-            //generateQuarters();
-            //generateDimes();
-            //generateNickels();
-            //generatePennies();
-            //generateGrapeSoda();
-            //generateOrangeSoda();
-            //generateMeatSoda();
-
-
         }
-        public void acceptCoins(/*List<Currency>*/ int currency)
+        public void acceptCoins(int currency)
         {
-            //UScurrency.AddRange(currency);
             switch (currency)
             {
                 case (1):
@@ -86,7 +74,6 @@ namespace sodaMachine
 
         }
        
-
         public void sodaSelection()
         {
             Console.WriteLine("**************************");
@@ -100,7 +87,6 @@ namespace sodaMachine
             Console.WriteLine("Please Make your Selection: (1, 2 or 3)");
             selectSoda(Convert.ToInt32(Console.ReadLine()));
         }
-        //UScurrency.Add(new Quarter());
 
         public void selectSoda(int selection)
         {
@@ -136,8 +122,6 @@ namespace sodaMachine
             }
         }
 
-
-       
         public void grapeRefund()
         {
             if (depositedAmount > grapeCan)
@@ -159,7 +143,6 @@ namespace sodaMachine
         {
             if (depositedAmount >= grapeCan)
             {
-                //grapeRefund();
                 return true;
             }
             else
@@ -171,7 +154,6 @@ namespace sodaMachine
         {
             if (depositedAmount >= orangeCan)
             {
-                //orangeRefund();
                 return true;
             }
             else
@@ -183,7 +165,6 @@ namespace sodaMachine
         { 
             if (depositedAmount >= meatCan)
             {
-                //meatRefund();
                 return true;
             }
             else
